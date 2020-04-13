@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.lijiaxuan.project",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "monolith",
+    "baseName": "lijiaxuan",
+    "packageName": "com.lijiaxuan.project",
+    "packageFolder": "com/lijiaxuan/project",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZDM0ZmRkZjU5MjY2ZGJiMjVkOGRmMjgwNmI2YjViMGFlNGZkYjliZGE2MmMyMGNjOGQzNDIxMjc1OWJkMThlZTMwNTlhMDdjMGQ1YmRiYzRmYmFiOWY0ODRmYWJiZThiMWE1ZDJlOGYzMjFlZjA5ZjM2NzE0YmQzMTU4NjI4MWE=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn"
+    ],
+    "skipClient": true
+  }
+}

@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html ng-app="shop">
+<head>
+    <meta charset="utf-8">
+    <title>李佳璇毕业设计商户统计</title>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/shop.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.liMarquee.js"></script>
+    <script type="text/javascript" src="js/jquery.cxselect.min.js"></script>
+
+    <link rel="stylesheet" href="css/comon0.css">
+</head>
+<body ng-controller="shopController">
+    <div style="background:#000d4a url(images/bg.jpg) center top;">
+        <div class="loading">
+            <div class="loadbox"> <img src="images/loading.gif"> {{demo}}页面加载中... </div>
+        </div>
+        <div class="back"></div>
+        <div class="head">
+            <div class="weather"><span id="showTime"></span></div>
+            <h1>百度外卖大数据统计</h1>
+
+        </div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000);/*開始运行*/
+            function time() {
+                clearTimeout(t);/*清除定时器*/
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours();
+                var m = dt.getMinutes();
+                var s = dt.getSeconds();
+                document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "日" + h + "时" + m + "分" + s + "秒";
+                t = setTimeout(time, 1000); 
+            }
+
+        </script>
+        <div class="mainbox" style="margin-right: 0px">
+            <ul class="clearfix">
+                <li>
+                    <div class="boxall" style="height:400px;">
+                        <div class="alltitle">各高校好评占比</div>
+                        <div class="navboxall" id="echart5"></div>
+                    </div>
+                    <div class="boxall" style="height:260px;">
+                        <div class="alltitle">下单实时监控</div>
+                        <div class="navboxall" style="padding-bottom: 1px">
+                            <div class="wraptit">
+                                <span>姓名</span><span>城市</span><span>金额</span><span>时间</span>
+                            </div>
+                            <div class="wrap" >
+                                <ul>
+                                    <li ng-repeat="x in orderList">
+                                        <p><span>{{x.name}}</span><span>{{x.city.substr(0,3)}}</span><span>{{x.money}}</span><span>{{x.time.substr(10,12)}}</span></p>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="boxall" style="height:260px;">
+                        <div class="alltitle" style="z-index: 99999">{{getHour()}}时下单职业监控</div>
+
+                        <div class="navboxall" id="echart1"></div>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="boxall" style="height:230px">
+                        <div class="clearfix navboxall" style="height: 100%">
+                            <div class="pulll_left num">
+                                <div class="numbt">总体情况<span>(单位：人)</span></div>
+                                <div class="numtxt">{{allnum}} </div>
+                            </div>
+                            <div class="pulll_right zhibiao">
+                                <div class="zb1"><span>好评占比</span><div id="zb1"></div></div>
+                                <div class="zb2"><span>中评占比</span><div id="zb2"></div></div>
+                                <div class="zb3"><span>差评占比</span><div id="zb3"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxall" style="height:350px;">
+                        <div class="alltitle">{{getHour()}}时各大城市性别监控</div>
+                        <div class="navboxall" id="echart3" >
+
+
+                        </div>
+
+                    </div>
+                    <div class="boxall" style="height:340px;z-index: 10">
+                        <div class="alltitle">不适合发展外卖业务的几大城市</div>
+                        <div class="navboxall" id="echart4" >
+                    </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="boxall" style="height:300px">
+                        <div class="alltitle">好评商家排名</div>
+                        <div class="navboxall">
+
+                            <table class="table1" width="300px" h border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">排名</th>
+                                        <th scope="col">&nbsp商家</th>
+                                        <th scope="col">好评人数</th>
+                                        <th scope="col">好评占比</th>
+                                    </tr>
+                                    <tr ng-repeat="shop in topList ">
+                                        <td><span>{{$index+1}}</span></td>
+                                        <td>{{shop.name.slice(0,7)}}**</td>
+                                        <td>{{shop.five}}<br></td>
+                                        <td>{{haozhanbi(shop)}}%<br></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="boxall" style="height: 300px">
+                        <div class="alltitle">差评商家排名</div>
+                        <div class="navboxall">
+                            <table class="table1" width="300px" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">排名</th>
+                                        <th scope="col">&nbsp商家</th>
+                                        <th scope="col">差评人数</th>
+                                        <th scope="col">差评占比</th>
+                                    </tr>
+                                    <tr ng-repeat="shop in lastList">
+                                        <td><span>{{$index+1}}</span></td>
+                                        <td>{{shop.name.slice(0,7)}}**</td>
+                                        <td>{{shop.one}}<br></td>
+                                        <td>{{huaizhanbi(shop)}}%<br></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="boxall" style="height:320px">
+                        <div class="alltitle">{{getHour()}}时各大城市下单数</div>
+                        <div class="navboxall" id="echart2"></div>
+                    </div>
+
+
+                </li>
+            </ul>
+
+        </div >
+    </div>
+
+    <script>
+        $(function () {
+            $('.wrap,.adduser').liMarquee({
+                direction: 'up',/*身上滚动*/
+                runshort: true,/*内容不足时不滚动*/
+                scrollamount: 20/*速度*/
+
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>

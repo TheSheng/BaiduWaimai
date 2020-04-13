@@ -1,0 +1,133 @@
+﻿<!doctype html>
+<html ng-app="order">
+<head>
+    <meta charset="utf-8">
+    <title>外卖订单</title>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/order.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <link rel="stylesheet" href="css/comon0.css">
+</head>
+<script>
+    $(window).load(function () {
+        $(".loading").fadeOut()
+    })
+
+
+    $(document).ready(function () {
+        var whei = $(window).width()
+        $("html").css({ fontSize: whei / 20 })
+        $(window).resize(function () {
+            var whei = $(window).width()
+            $("html").css({ fontSize: whei / 20 })
+        });
+    });
+</script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+
+<body ng-controller="orderController">
+    <div class="canvas" style="opacity: .2">
+        <iframe frameborder="0" src="js/index.html" style="width: 100%; height: 100%"></iframe>
+    </div>
+    <div class="loading">
+        <div class="loadbox"> <img src="images/loading.gif"> 页面加载中... </div>
+    </div>
+    <div class="head">
+        <h1>全国外卖订单分析统计</h1>
+        <div class="weather"><!--<img src="images/weather.png"><span>多云转小雨</span>--><span id="showTime"></span></div>
+
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000); 
+            function time() {
+                clearTimeout(t); 
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours(); 
+                var m = dt.getMinutes(); 
+                var s = dt.getSeconds(); 
+                document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "-" + h + "时" + m + "分" + s + "秒";
+                t = setTimeout(time, 1000);  
+            }
+
+        </script>
+
+
+    </div>
+    <div class="mainbox">
+        <ul class="clearfix">
+            <li>
+                <div class="boxall" style="height: 3.2rem">
+                    <div class="alltitle">主要城市收入监控(单位/元)</div>
+                    <div class="allnav" id="echart1"></div>
+                    <div class="boxfoot"></div>
+                </div>
+                <div class="boxall" style="height: 3.2rem">
+                    <div class="alltitle">主要城市下单人数监控(单位/人)</div>
+                    <div class="allnav" id="echart2"></div>
+                    <div class="boxfoot"></div>
+                </div>
+                <div class="boxall" style="height: 3.2rem">
+                    <div style="height:100%; width: 100%;">
+                        <div class="sy" id="fb1"></div>
+                        <div class="sy" id="fb2"></div>
+                        <div class="sy" id="fb3"></div>
+                    </div>
+                    <div class="boxfoot">
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="bar">
+                    <div class="barbox">
+                        <ul class="clearfix">
+                            <li class="pulll_left counter">{{income[0]}}</li>
+                            <li class="pulll_left counter">{{income[1]}}</li>
+                        </ul>
+                    </div>
+                    <div class="barbox2">
+                        <ul class="clearfix">
+                            <li class="pulll_left">总收入情况(单位/元) </li>
+                            <li class="pulll_left">{{getDate()}}收入情况(单位/元)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="map">
+                    <div class="map1"><img src="images/lbx.png"></div>
+                    <div class="map2"><img src="images/jt.png"></div>
+                    <div class="map3"><img src="images/map.png"></div>
+                    <div class="map4" id="map_1"></div>
+                </div>
+            </li>
+            <li>
+                <div class="boxall" style="height:3.4rem">
+                    <div class="alltitle">设备实时监控(单位/个)</div>
+                    <div class="allnav" id="echart4"></div>
+                    <div class="boxfoot"></div>
+                </div>
+                <div class="boxall" style="height: 3.2rem">
+                    <div class="alltitle">{{getHour()}}时城市下单金额(单位/元)</div>
+                    <div class="allnav" id="echart5"></div>
+                    <div class="boxfoot"></div>
+                </div>
+                <div class="boxall" style="height: 3rem">
+                    <div class="alltitle">{{getHour()}}时口味偏好</div>
+                    <div class="allnav" id="echart6"></div>
+                    <div class="boxfoot"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="back"></div>
+
+
+    <script type="text/javascript" src="js/china.js"></script>
+
+
+ 
+</body>
+</html>

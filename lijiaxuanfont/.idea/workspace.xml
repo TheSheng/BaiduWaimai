@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="132ffbcc-01b5-4a13-8850-6ec21ed8a2d9" name="Default Changelist" comment="%">
+      <change afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/domain/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/repository/LoginUserRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/angular-cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/loginAngular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/sweetalert-dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.huskyrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.yo-rc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/proxy.conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/sonar-project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/account.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/account.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/activate/activate.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/activate/activate.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/activate/activate.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/activate/activate.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/finish/password-reset-finish.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/init/password-reset-init.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/init/password-reset-init.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/init/password-reset-init.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password-reset/init/password-reset-init.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password-strength-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password-strength-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/password/password.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/register/register.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/register/register.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/settings/settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/settings/settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/account/settings/settings.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/admin.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/admin.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audit-data.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audit.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audits.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audits.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audits.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/audits/audits.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/configuration/configuration.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/configuration/configuration.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/configuration/configuration.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/configuration/configuration.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/docs/docs.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/docs/docs.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/docs/docs.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health-modal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health-modal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/health/health.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/logs/log.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/logs/logs.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/logs/logs.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/logs/logs.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/logs/logs.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/metrics/metrics.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/metrics/metrics.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/metrics/metrics.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/metrics/metrics.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/admin/user-management/user-management.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/app.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/app.main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/blocks/config/prod.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/blocks/config/uib-pagination.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/blocks/interceptor/notification.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/auth/account.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/auth/csrf.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/auth/state-storage.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/auth/user-route-access-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/login/login-modal.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/login/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/user/account.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/user/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/core/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/entities/entity.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/home.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/home/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/error/error.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/error/error.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/error/error.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/main/main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/main/main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/navbar/navbar.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/navbar/navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/profiles/page-ribbon.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/profiles/page-ribbon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/profiles/profile-info.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/layouts/profiles/profile.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/alert/alert-error.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/alert/alert.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/auth/has-any-authority.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/constants/error.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/constants/input.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/constants/pagination.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/shared-common.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/shared-libs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/util/datepicker-adapter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/shared/util/request-util.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/app/vendor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/css/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_0_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_0_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_0_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_0_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_1_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_1_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_1_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_1_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_2_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_2_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_2_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_2_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_3_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_3_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_3_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/jhipster_family_member_3_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/images/logo-jhipster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/scss/_bootstrap-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/scss/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/content/scss/vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/manifest.webapp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/swagger-ui/dist/images/throbber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/webapp/swagger-ui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/jest-global-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/jest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/activate/activate.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/password-reset/finish/password-reset-finish.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/password-reset/init/password-reset-init.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/password/password-strength-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/password/password.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/account/settings/settings.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/audits/audits.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/audits/audits.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/configuration/configuration.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/configuration/configuration.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/health/health.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/logs/logs.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/logs/logs.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/metrics/metrics.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/metrics/metrics.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/user-management/user-management-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/user-management/user-management-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/user-management/user-management-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/admin/user-management/user-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/core/user/account.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/core/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/shared/alert/alert-error.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/app/shared/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-account.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-active-modal.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-alert.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-event-manager.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-route.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/mock-state-storage.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/helpers/spyobject.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/javascript/spec/test.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/tsconfig-aot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/webpack/logo-jhipster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/webpack/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/webpack/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/webpack/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/webpack/webpack.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lijiaxuan/order.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lijiaxuan/order.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/service/kafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/java/com/lijiaxuan/project/service/kafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lijiaxuan/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../lijiaxuan/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/nimabi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/back.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/order/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/order/js/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/public/js/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/public/js/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/public/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/public/js/loginangular.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/public/js/loginangular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/public/js/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/public/js/member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/views/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/views/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/views/gai.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/views/gai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lishengfont/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lishengfont/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../news/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news/src/main/java/com/lisheng/project/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../news/src/main/java/com/lisheng/project/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user" beforeDir="false" afterPath="$PROJECT_DIR$/../user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../License" beforeDir="false" afterPath="$PROJECT_DIR$/../../../License" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SparkDemo/src/RedisConnection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SparkDemo/src/RedisConnection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spark-2.4.3-bin-hadoop2.7/logs/spark-lisheng-org.apache.spark.deploy.master.Master-1-localhost.out.5" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/md5.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/loginAngular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="79" column="18" selection-start-line="79" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/order/js/order.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="36" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>523</find>
+      <find>298</find>
+      <find>zb1</find>
+      <find>alltitle</find>
+      <find>125811</find>
+      <find>安卓</find>
+      <find>南超</find>
+      <find>data</find>
+      <find>ease</find>
+      <find>rgba</find>
+      <find>hour</find>
+      <find>getHour</find>
+      <find>getTime</find>
+      <find>swal</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/order/js/oredr.js" />
+        <option value="$PROJECT_DIR$/public/order/js/js.js" />
+        <option value="$PROJECT_DIR$/public/order/js/area_echarts.js" />
+        <option value="$PROJECT_DIR$/public/js/js.js" />
+        <option value="$PROJECT_DIR$/views/deng.html" />
+        <option value="$PROJECT_DIR$/public/assets/js/demo.js" />
+        <option value="$PROJECT_DIR$/public/assets/css/demo.css" />
+        <option value="$PROJECT_DIR$/public/js/shop.js" />
+        <option value="$PROJECT_DIR$/views/demo.html" />
+        <option value="$PROJECT_DIR$/public/js/login.js" />
+        <option value="$PROJECT_DIR$/views/member.html" />
+        <option value="$PROJECT_DIR$/views/login.html" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/js/loginAngular.js" />
+        <option value="$PROJECT_DIR$/views/user.html" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/public/js/menu.js" />
+        <option value="$PROJECT_DIR$/views/menu.html" />
+        <option value="$PROJECT_DIR$/public/js/user.js" />
+        <option value="$PROJECT_DIR$/public/order/js/order.js" />
+        <option value="$PROJECT_DIR$/views/order.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="y" value="159" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome-4.7.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome-4.7.0" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lijiaxuanfont" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lijiaxuanfont" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558890941735" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/public/assets/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="132ffbcc-01b5-4a13-8850-6ec21ed8a2d9" name="Default Changelist" comment="" />
+      <created>1557918904148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557918904148</updated>
+      <workItem from="1557918905822" duration="13906000" />
+      <workItem from="1557998129754" duration="5620000" />
+      <workItem from="1558012091179" duration="540000" />
+      <workItem from="1558016218339" duration="440000" />
+      <workItem from="1558016818033" duration="2291000" />
+      <workItem from="1558084379481" duration="287000" />
+      <workItem from="1558085573497" duration="1847000" />
+      <workItem from="1558162837926" duration="19293000" />
+      <workItem from="1558251589121" duration="16115000" />
+      <workItem from="1558677739941" duration="1295000" />
+      <workItem from="1558713768139" duration="24000" />
+      <workItem from="1558713800551" duration="32000" />
+      <workItem from="1558771090194" duration="454000" />
+      <workItem from="1558813266899" duration="1342000" />
+      <workItem from="1558860135499" duration="1008000" />
+      <workItem from="1558861157280" duration="25656000" />
+      <workItem from="1558935760815" duration="1363000" />
+      <workItem from="1559031341179" duration="948000" />
+      <workItem from="1559037683702" duration="180000" />
+      <workItem from="1559041387824" duration="700000" />
+      <workItem from="1559183823335" duration="595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93936000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="233" y="159" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3477707" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/app.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order/js/area_echarts.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.cxselect.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order/js/china.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7023" selection-start-line="25" selection-start-column="7023" selection-end-line="25" selection-end-column="7023" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/js.js" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery-1.11.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/views/deng.html" />
+    <entry file="file://$PROJECT_DIR$/public/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/demo.js" />
+    <entry file="file://$PROJECT_DIR$/public/order/js/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/back.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.liMarquee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#1053#1590#0" />
+            <element signature="e#1667#1940#0" />
+            <element signature="e#1973#2248#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/sweetalert.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/news.css" />
+    <entry file="file://$PROJECT_DIR$/public/font-awesome-4.7.0/scss/_animated.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/font-awesome-4.7.0/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/sweetalert-dev.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/angular-cookies.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#li#1;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#li#1;n#ul#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/md5.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/order/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="36" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loginAngular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="79" column="18" selection-start-line="79" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

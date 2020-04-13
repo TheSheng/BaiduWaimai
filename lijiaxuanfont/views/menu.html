@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="menu">
+
+<head>
+<meta charset="UTF-8">
+<title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" media="screen" href="css/back.css">
+
+    <!--默认样式-->
+<link rel="stylesheet" href="css/reset.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+<!--图标样式-->
+
+	<script type="text/javascript" src="./bootstrap/js/jquery.min.js"></script>
+<!--主要样式-->
+
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-cookies.js"></script>
+
+	<script type="text/javascript" src="js/menu.js"></script>
+<link rel="stylesheet" href="css/menu.css" >
+
+	<script src="js/sweetalert-dev.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<style>
+		.touimg{
+			width: 50px;
+			border-radius: 50%;
+			padding: 5px;
+
+		}
+	</style>
+</head>
+
+<body ng-controller="menuController">
+
+<div class="page" style="background-color: white" >
+
+	<!--左侧导航-->
+	<div class="navbar" style="width: 10%" id="particles-js" style="display: flex;align-items: center;justify-content: center;border:none;">
+		<div class="user" style="">
+			<img src="{{user.imgUrl}}" class="touimg">
+			<div class="user__name">{{user.username}}</div>
+		</div>
+		<div class="bar" >
+            <style>
+                .options ul li{
+                 padding-top: 100px;
+
+                }
+
+            </style>
+			<div class="options">
+				<ul>
+
+
+
+					<li id="order"><i class="fa fa-print" aria-hidden="true"></i>订单展示</li>
+					<li id="shop"><i class="fa fa-star-half-o" aria-hidden="true"></i>商家展示</li>
+                    <li ng-click="edit()"><i class="fa fa-user-circle" >账号管理</i> </li>
+                    <li ng-click="loginout()"><i class="fa fa-sign-out" aria-hidden="true"></i> 退出登录</li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!--主要内容部分-->
+    <div class="content" style="background-color: white ;width: 90%;margin-right: 0px">
+       <!--<iframe src="/order" width="1435px" height="790px">-->
+
+		   <iframe id="iframe"src="/" width="100%" height="100%" style="margin-right: 0px">
+	   </iframe>
+
+
+    </div>
+
+
+
+	</div>
+
+</div>
+<script>
+	jQuery(document).ready(function ($) {
+		$("#order").click(function () {
+			$("#iframe").attr("src","/order")
+		})
+		$("#shop").click(function () {
+			$("#iframe").attr("src","/")
+		})
+	})
+
+	document.documentElement.style.overflow='hidden';
+</script>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
